@@ -2,7 +2,7 @@
 REM IRIS API Client Batch File
 REM Usage: iris_api_client.bat [--output filename.md] [--pretty]
 
-set URL=https://iris.westeros.cpt/manage/cases/list?cid=1
+set URL=https://yoururl.com
 set TOKEN=YOU TOKEN
 set OUTPUT=iris_cases.md
 
