@@ -6,7 +6,7 @@ param (
     [switch]$Pretty
 )
 
-$url = "https://iris.westeros.cpt/manage/cases/list?cid=1"
+$url = "https://yoururl.com"
 $token = "YOU TOKEN"
 
 if ($Pretty) {
