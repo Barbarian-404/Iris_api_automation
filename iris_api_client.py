@@ -69,8 +69,8 @@ def get_cases(url, token, output_file=None, pretty=False):
 
 def main():
     parser = argparse.ArgumentParser(description='Fetch cases from the IRIS API')
-    parser.add_argument('--url', default='https://iris.westeros.cpt/manage/cases/list?cid=1',
-                        help='The API URL (default: https://iris.westeros.cpt/manage/cases/list?cid=1)')
+    parser.add_argument('--url', default='https://yoururl.com',
+                        help='The API URL (default: https://yoururl.com)')
     parser.add_argument('--token', required=True,
                         help='The authentication token')
     parser.add_argument('--output', default='iris_cases.md',
