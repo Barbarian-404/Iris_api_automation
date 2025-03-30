@@ -7,7 +7,7 @@ param (
 )
 
 $url = "https://iris.westeros.cpt/manage/cases/list?cid=1"
-$token = "Y9hT6f60qEMnFxmyLzZBI0YidRIEiEa_tKiy8ADrYb2rFvhcS9GwBApRXMQuuHVLFq_p2gnU62vAD_Uy2JsLjA"
+$token = "YOU TOKEN"
 
 if ($Pretty) {
     python iris_api_client.py --url $url --token $token --pretty
